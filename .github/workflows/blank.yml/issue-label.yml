@@ -1,0 +1,14 @@
+name: "Set Issue Label"
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["ec2", "EC2"]'
+          labels: '["ec2"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
