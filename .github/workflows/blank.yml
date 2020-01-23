@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["help", "wanted"]'
-          labels: '["help wanted"]'
+          keywords: '["ec2", "EC@"]'
+          labels: '["ec2"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
