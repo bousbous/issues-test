@@ -11,4 +11,5 @@ jobs:
         with:
           keywords: '["ec2", "EC@"]'
           labels: '["ec2"]'
+          assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
