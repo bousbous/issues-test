@@ -7,13 +7,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Naturalclar/issue-action@v1.0.0@438734f3c586fd82d8674327a416477280f9ce51
+      - uses: Naturalclar/issue-action@438734f3c586fd82d8674327a416477280f9ce51
         with:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0@438734f3c586fd82d8674327a416477280f9ce51
+      - uses: Naturalclar/issue-action@438734f3c586fd82d8674327a416477280f9ce51
         with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
