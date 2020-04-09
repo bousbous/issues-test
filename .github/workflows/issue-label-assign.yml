@@ -19,3 +19,39 @@ jobs:
           labels: '["ecr"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["route 53", "route53"]'
+          labels: '["package/route53"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["app-delivery", "app delivery"]'
+          labels: '["package/app-delivery"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["decdk"]'
+          labels: '["package/decdk"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["awslint"]'
+          labels: '["package/awslint"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["assert"]'
+          labels: '["package/assert"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["assets"]'
+          labels: '["package/assets"]'
+          assignees: '["SomayaB"]'
+          github-token: "${{ secrets.GITHUB_TOKEN }}"      
