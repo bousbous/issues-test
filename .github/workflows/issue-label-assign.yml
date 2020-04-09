@@ -13,9 +13,3 @@ jobs:
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: Naturalclar/issue-action@v1.0.0
-        with:
-          keywords: '["ecr"]'
-          labels: '["ecr"]'
-          assignees: '["SomayaB"]'
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
