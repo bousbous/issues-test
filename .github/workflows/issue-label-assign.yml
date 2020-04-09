@@ -51,7 +51,7 @@ jobs:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["assets"]'
-          labels: '["package/assets"]'
+          keywords: '["alexa-ask","alexa ask"]'
+          labels: '["@aws-cdk/alexa-ask"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"      
