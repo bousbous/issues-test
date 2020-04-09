@@ -17,7 +17,7 @@ jobs:
         with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
-          assignees: '["SomayaB"]'
+          assignees: '["moniarchy"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
       - uses: Naturalclar/issue-action@v1.0.0
         with:
