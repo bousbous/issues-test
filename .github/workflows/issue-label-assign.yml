@@ -7,13 +7,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/issue-action@v1.0.0
+      - uses: SomayaB/issue-action
         with:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@v1.0.0
+      - uses: SomayaB/issue-action
         with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
