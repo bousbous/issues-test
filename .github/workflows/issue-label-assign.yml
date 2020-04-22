@@ -1,6 +1,6 @@
 name: "Set Issue Label"
 on:
-  issues:
+ pull_request:
     types: [opened]
 
 jobs:
