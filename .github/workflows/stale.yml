@@ -2,9 +2,9 @@ name: "Close Stale Issues"
 
 # Controls when the action will run.
 on:
- issues:
-    types: [opened]
-
+  push:
+    branches:
+      - master
 jobs:
   cleanup:
     runs-on: ubuntu-latest
@@ -30,7 +30,7 @@ jobs:
         closed-for-staleness-label: closed-for-staleness
 
         # Issue timing
-        days-before-stale: 0.01
+        days-before-stale: 0.001
         days-before-close: 0.002
         days-before-ancient: 1095
 
