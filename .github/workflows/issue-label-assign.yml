@@ -9,49 +9,49 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
           assignees: '["moniarchy"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["route53"]'
           labels: '["package/route53"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["app-delivery", "app delivery"]'
           labels: '["package/app-delivery"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@300b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["decdk"]'
           labels: '["package/decdk"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["awslint"]'
           labels: '["package/awslint"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["assert"]'
           labels: '["package/assert"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-      - uses: SomayaB/issue-action@00b6159
+      - uses: SomayaB/issue-action
         with:
           keywords: '["alexa-ask","alexa ask"]'
           labels: '["@aws-cdk/alexa-ask"]'
