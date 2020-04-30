@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/issue-action@34adf22
+      - uses: SomayaB/issue-action@00b6159
         with:
           keywords: '["ec2"]'
           labels: '["ec2"]'
