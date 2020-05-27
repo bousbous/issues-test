@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/auto-label@v2
+      - uses: SomayaB/auto-label@v234e78
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           ignore-comments: true
