@@ -14,20 +14,20 @@ jobs:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
-          title-or-body: 'body'
+          title-or-body: 'both'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@23bc420
+       uses: SomayaB/issue-action@120eba5
      - with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
           assignees: '["SomayaB"]'
-          title-or-body: 'body'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@23bc420
+       uses: SomayaB/issue-action@120eba5
      - with:
           keywords: '["route53", "route 53"]'
           labels: '["package/route53"]'
           assignees: '["SomayaB"]'
-          title-or-body: 'body'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@23bc420
+       uses: SomayaB/issue-action@120eba5
