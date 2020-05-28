@@ -16,18 +16,18 @@ jobs:
           assignees: '["SomayaB"]'
           title-or-body: 'both'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@120eba5
+       uses: SomayaB/issue-action@ce63efb
      - with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
           assignees: '["SomayaB"]'
           title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@120eba5
+       uses: SomayaB/issue-action@ce63efb
      - with:
           keywords: '["route53", "route 53"]'
           labels: '["package/route53"]'
           assignees: '["SomayaB"]'
           title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action@120eba5
+       uses: SomayaB/issue-action@ce63efb
