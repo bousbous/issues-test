@@ -14,7 +14,7 @@ jobs:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
-          title-or-body: 'both'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
        uses: SomayaB/issue-action@608d83f
      - with:
