@@ -20,19 +20,19 @@ jobs:
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-          run: |
-           node lib/index.js
+     - run: |
+        node lib/index.js
      - with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
           assignees: '["moniarchy"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-          run: |
-           node lib/index.js
+     - run: |
+         node lib/index.js
      - with:
           keywords: '["route53", "route 53"]'
           labels: '["package/route53"]'
           assignees: '["SomayaB"]'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-          run: |
-           node lib/index.js
+     - run: |
+         node lib/index.js
