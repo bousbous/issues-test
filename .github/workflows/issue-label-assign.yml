@@ -1,38 +1,33 @@
-name: "Set Issue Label"
+name: "Set Issue Label and Assignee"
 on:
  issues:
     types: [opened]
  pull_request:
     types: [opened]
-
+  
 jobs:
   test:
     runs-on: ubuntu-latest
     
     steps: 
-     - name: Checkout
-       uses: actions/checkout@v2
-       with:
-         repository: SomayaB/issue-action
-         ref: 00b6159
      - with:
           keywords: '["ec2"]'
           labels: '["ec2"]'
           assignees: '["SomayaB"]'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-     - run: |
-        node lib/index.js
+       uses: SomayaB/issue-action@23bc420
      - with:
           keywords: '["ecr"]'
           labels: '["ecr"]'
-          assignees: '["moniarchy"]'
+          assignees: '["SomayaB"]'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-     - run: |
-         node lib/index.js
+       uses: SomayaB/issue-action@23bc420
      - with:
           keywords: '["route53", "route 53"]'
           labels: '["package/route53"]'
           assignees: '["SomayaB"]'
+          title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-     - run: |
-         node lib/index.js
+       uses: SomayaB/issue-action@23bc420
