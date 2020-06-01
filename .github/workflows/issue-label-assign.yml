@@ -14,4 +14,4 @@ jobs:
           keywords-assignees-labels: '[ {"keywords": ["ecr", "elastic container registry"], "labels": ["ecr"], "assignees": ["SomayaB", "moniarchy"]}, {"keywords": ["ec2"], "labels": ["ec2"], "assignees": ["SomayaB", "moniarchy"]}]'
           title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
-       uses: SomayaB/issue-action
+       uses: SomayaB/issue-action@66fd10e
