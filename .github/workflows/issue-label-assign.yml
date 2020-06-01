@@ -11,7 +11,7 @@ jobs:
     
     steps: 
      - with:
-          keywords-assignees-labels: '[ {"keywords": ["ecr"], "labels": ["ecr"], "assignees": [""]}, {"keywords": ["ec2"], "labels": ["ec2"], "assignees": ["SomayaB"]}]'
+          keywords-assignees-labels: '[ {"keywords": ["ecr"], "labels": ["ecr"], "assignees": []}, {"keywords": ["ec2"], "labels": ["ec2"], "assignees": ["SomayaB"]}]'
           title-or-body: 'title'
           github-token: "${{ secrets.GITHUB_TOKEN }}"
        uses: SomayaB/issue-action@1d6c0d5
