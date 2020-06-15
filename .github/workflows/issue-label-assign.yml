@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Naturalclar/issue-action@v2.0.1
+      - uses: Naturalclar/issue-action@f229cda
         with:
           title-or-body: 'title'
           parameters: '[ {"keywords": ["ecr", "elastic container registry"], "labels": ["red"], "assignees": ["SomayaB"]}, {"keywords": ["ec2"], "labels": ["ec2"], "assignees": ["SomayaB"]}, {"keywords": ["@aws-cdk/aws-route53-patterns", "aws-route53-patterns", "route53-patterns", "route53 patterns"], "labels": ["@aws-cdk/aws-route53-patterns"], "assignees": ["SomayaB"]}, {"keywords": ["@aws-cdk/aws-route53", "aws-route53", "route53"], "labels": ["@aws-cdk/aws-route53"], "assignees": ["SomayaB"]} ]'
