@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: Naturalclar/issue-action@f229cda
         with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
           title-or-body: 'title'
           parameters: >
            [
@@ -20,4 +21,3 @@ jobs:
            {"keywords": ["@aws-cdk/aws-route53", "aws-route53", "route53"], "labels": ["@aws-cdk/aws-route53"], "assignees": ["SomayaB"]},
            {"keywords": ["@aws-cdk/aws-ce","aws-ce","ce"],"labels":["@aws-cdk/aws-ce"],"assignees":["SomayaB"]}
            ]
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
