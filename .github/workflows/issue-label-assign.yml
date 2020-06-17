@@ -15,7 +15,7 @@ jobs:
           title-or-body: 'title'
           parameters: >
            [
-           {"keywords":["cli","command line"],"labels":["package/tools"],"assignees":["SomayaB"]},
+           {"keywords":["cli","command line"],"labels":["package/tools"],"assignees":["shivlaks"]},
            {"keywords":["alexa-ask","alexa ask"],"labels":["@aws-cdk/alexa-ask"],"assignees":["MrArnoldPalmer"]},
            {"keywords":["app-delivery","app delivery"],"labels":["@aws-cdk/app-delivery"],"assignees":["skinny85"]},
            {"keywords":["assert"],"labels":["@aws-cdk/assert"],"assignees":["eladb"]},
