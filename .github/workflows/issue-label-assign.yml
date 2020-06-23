@@ -16,5 +16,6 @@ jobs:
           parameters: >
            [
            {"keywords":["(cli)","(command line)"],"labels":["package/tools"],"assignees":["SomayaB"]},
-           {"keywords":["(alexa-ask)","(alexa ask)"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]}
+           {"keywords":["(alexa-ask)","(alexa ask)"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]},
+           {"keywords":["(ecs-patterns)","(ecs patterns)"],"labels":["@aws-cdk/aws-ecs-patterns"],"assignees":["SomayaB"]}
            ]
