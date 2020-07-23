@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Naturalclar/issue-action@f229cda
+      - uses: SomayaB/issue-action-dev@0b269de
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           title-or-body: 'title'
