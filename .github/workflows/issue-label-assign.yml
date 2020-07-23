@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/issue-action-dev@0b269de
+      - uses: SomayaB/issue-action-dev@0272ebf
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           title-or-body: 'title'
