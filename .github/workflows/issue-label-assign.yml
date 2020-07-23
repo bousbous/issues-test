@@ -9,13 +9,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: SomayaB/issue-action-dev@f229cda
+      - uses: SomayaB/issue-action-dev@0b269de
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
           title-or-body: 'title'
           parameters: >
            [
-           {"keywords":["(cli)","(command line)"],"labels":["package/tools"],"assignees":["SomayaB"]},
-           {"keywords":["(alexa-ask)","(alexa ask)"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]},
-           {"keywords":["(ecs-patterns)","(ecs patterns)"],"labels":["@aws-cdk/aws-ecs-patterns"],"assignees":["SomayaB"]}
+           {"keywords":["cli","command line"],"labels":["package/tools"],"assignees":["SomayaB"]},
+           {"keywords":["alexa-ask","alexa ask"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]},
+           {"keywords":["ecs-patterns","ecs patterns"],"labels":["@aws-cdk/aws-ecs-patterns"],"assignees":["SomayaB"]}
            ]
