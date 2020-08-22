@@ -6,7 +6,7 @@ jobs:
     auto_comment:
         runs-on: ubuntu-latest
         steps:
-        - uses: SomayaB/closed-issues-comment@v1.2.0
+        - uses: SomayaB/closed-issues-message@v1
           with:
             # These inputs are both required
             repo-token: "${{ secrets.GITHUB_TOKEN }}"
