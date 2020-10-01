@@ -1,4 +1,4 @@
-name: "Closed Issues Default Comment"
+name: "Closed Issue Message"
 on:
     issues:
        types: [closed]
@@ -6,7 +6,7 @@ jobs:
     auto_comment:
         runs-on: ubuntu-latest
         steps:
-        - uses: SomayaB/closed-issues-message@v1
+        - uses: aws-actions/closed-issues-message
           with:
             # These inputs are both required
             repo-token: "${{ secrets.GITHUB_TOKEN }}"
