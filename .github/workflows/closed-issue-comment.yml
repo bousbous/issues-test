@@ -9,7 +9,7 @@ jobs:
         - uses: aws-actions/closed-issue-message@v1
           with:
             # These inputs are both required
-            repo-token: ${{ secrets.PAT}}
+            repo-token: ${{ secrets.REPO_SECRET}}
             message: |
                      ### ⚠️COMMENT VISIBILITY WARNING⚠️ 
                      Comments on closed issues are hard for our team to see. 
