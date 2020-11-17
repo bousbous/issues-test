@@ -1,21 +1,21 @@
-# name: "Set Issue Label and Assignee"
-# on:
-#  issues:
-#     types: [opened, edited]
-#  pull_request:
-#     types: [opened, edited]
+name: "Set Issue Label and Assignee"
+on:
+ issues:
+    types: [opened, edited]
+ pull_request:
+    types: [opened, edited]
   
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses:  Naturalclar/issue-action @f229cda
-#         with:
-#           github-token: "${{ secrets.GITHUB_TOKEN }}"
-#           title-or-body: 'title'
-#           parameters: >
-#            [
-#            {"keywords":["cli","command line"],"labels":["package/tools"],"assignees":["SomayaB"]},
-#            {"keywords":["alexa-ask","alexa ask"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]},
-#            {"keywords":["ecs-patterns","ecs patterns"],"labels":["@aws-cdk/aws-ecs-patterns"],"assignees":["SomayaB"]}
-#            ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses:  Naturalclar/issue-action @f229cda
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          title-or-body: 'title'
+          parameters: >
+           [
+           {"keywords":["cli","command line"],"labels":["package/tools"],"assignees":["SomayaB"]},
+           {"keywords":["alexa-ask","alexa ask"],"labels":["@aws-cdk/alexa-ask"],"assignees":["SomayaB"]},
+           {"keywords":["ecs-patterns","ecs patterns"],"labels":["@aws-cdk/aws-ecs-patterns"],"assignees":["SomayaB"]}
+           ]
