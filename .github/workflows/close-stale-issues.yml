@@ -1,7 +1,9 @@
 name: "Close Stale Issues"
 
 # Controls when the action will run.
-on: push
+on:
+  issues:
+    types: [edited]
 
 jobs:
   cleanup:
