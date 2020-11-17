@@ -41,7 +41,6 @@ jobs:
         minimum-upvotes-to-exempt: 5
 
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        persist-credentials: false
         # loglevel: DEBUG
         # Set dry-run to true to not perform label or close actions.
         dry-run: false
