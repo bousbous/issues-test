@@ -2,8 +2,8 @@ name: "Close Stale Issues"
 
 # Controls when the action will run.
 on:
-  schedule:
-  - cron: "0 6 * * *"
+    issues:
+       types: [edited]
 
 jobs:
   cleanup:
