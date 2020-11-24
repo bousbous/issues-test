@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[module] "
+title: "(module i.e. ec2, iam, etc.): short issue description "
 labels: ''
 
 ---
